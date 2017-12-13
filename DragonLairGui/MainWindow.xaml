@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragonLairGui"
+        xmlns:DragonsLair="clr-namespace:DragonsLair;assembly=DragonsLair" x:Class="DragonLairGui.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="700">
+    <Grid Margin="0,0,-243,-93" HorizontalAlignment="Left" Width="760">
+        <TextBox x:Name="ShowStuff_Textbox" HorizontalAlignment="Left" Height="115" Margin="67,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="392" TextChanged="ShowStuff_Textbox_TextChanged" />
+        <Button x:Name="ShowScore_Button" Content="Show Score" HorizontalAlignment="Left" Height="34" Margin="67,10,0,0" VerticalAlignment="Top" Width="392" Click="ShowScore_Button_Click"/>
+        <TextBox x:Name="TournamentName_Textbox" HorizontalAlignment="Left" Height="33" Margin="67,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="392" TextChanged="TournamentName_Textbox_TextChanged"/>
+        <ComboBox x:Name="CB1" HorizontalAlignment="Left" Margin="486,82,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Tournament_Add" Content="Add Tournament" HorizontalAlignment="Left" Margin="67,202,0,0" VerticalAlignment="Top" Width="94" Click="Tournament_Add_Click"/>
+        <Button x:Name="Show_Round" Content="Show Round" HorizontalAlignment="Left" Height="22" Margin="166,202,0,0" VerticalAlignment="Top" Width="117" Click="Show_Round_Click"/>
+        <Button x:Name="Sc" Content="Show Round" HorizontalAlignment="Left" Height="22" Margin="288,202,0,0" VerticalAlignment="Top" Width="117" Click="Show_Round_Click"/>
+
+    </Grid>
+</Window>

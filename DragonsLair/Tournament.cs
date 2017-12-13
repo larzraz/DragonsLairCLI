@@ -44,7 +44,7 @@ namespace DragonsLair
         
         public Round GetRound(int idx)
         {
-            return rounds[idx];
+            return rounds[idx - 1];
         }
 
         public void AddRound(Round r)
